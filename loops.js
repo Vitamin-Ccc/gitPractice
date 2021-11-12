@@ -55,3 +55,13 @@ let newValues = numbers.map((num) => {
 });
 
 console.log(newValues);
+
+// filter - go through each thing in an array and run the function given
+// if that function returns true, then keep the item in the new array
+// which is returned at the end
+
+const odds = numbers.filter((num) => {
+  return num % 2 !== 0;
+});
+
+console.log(odds);
